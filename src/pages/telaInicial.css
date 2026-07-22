@@ -1,0 +1,36 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+  .Container{
+    height: 85.4ch;
+    width: 184.6ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#584e96;
+  }
+  .titulo{
+    font-size: 100px;
+    height: 800px;
+ margin-right: 800px;
+ position: absolute;
+  }
+
+  input{
+    padding: 8px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(0, 0, 0);
+    height: 2vh;
+    width: 50vh;
+    margin-right: 900px;
+    margin-top: 0px;
+    position: absolute;
+}
+ input:focus{
+  background-color: rgb(0, 0, 0);
+  color: rgb(102, 255, 0);
+}
